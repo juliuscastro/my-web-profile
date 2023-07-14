@@ -416,10 +416,6 @@ span {
 }
 
 @media (max-width: 768px) {
-	#menu-icon {
-		display: block;
-	}
-
 	.navbar {
 		position: absolute;
 		top: 100%;
