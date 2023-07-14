@@ -483,7 +483,7 @@ span {
 
 @media (max-width: 617px) {
 	#menu-icon {
-		display: block;
+		display: flex;
 	}
 	.portfolio-container {
 		grid-template-columns: 1fr
@@ -496,7 +496,7 @@ span {
 	}
 
 	#menu-icon {
-		display: block;
+		display: flex;
 	}
 
 	.contact form .input-box input {
@@ -506,7 +506,7 @@ span {
 
 @media (max-width: 365px) {
 	#menu-icon {
-		display: block;
+		display: flex;
 	}
 	.home-img img {
 		width: 90vw;
