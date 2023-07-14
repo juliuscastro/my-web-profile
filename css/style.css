@@ -482,6 +482,9 @@ span {
 }
 
 @media (max-width: 617px) {
+	#menu-icon {
+		display: block;
+	}
 	.portfolio-container {
 		grid-template-columns: 1fr
 	}
@@ -492,12 +495,19 @@ span {
 		font-size: 50%;
 	}
 
+	#menu-icon {
+		display: block;
+	}
+
 	.contact form .input-box input {
 		width: 100%;
 	}
 }
 
 @media (max-width: 365px) {
+	#menu-icon {
+		display: block;
+	}
 	.home-img img {
 		width: 90vw;
 	}
