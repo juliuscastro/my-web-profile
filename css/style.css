@@ -479,6 +479,14 @@ span {
 	.portfolio-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
+	.footer {
+		flex-direction: column-reverse;
+	}
+
+	.footer p {
+		text-align: center;
+		margin-top: 2rem;
+	}
 }
 
 @media (max-width: 617px) {
@@ -504,14 +512,5 @@ span {
 
 	.about-img img {
 		width: 90vw;
-	}
-
-	.footer {
-		flex-direction: column-reverse;
-	}
-
-	.footer p {
-		text-align: center;
-		margin-top: 2rem;
 	}
 }
