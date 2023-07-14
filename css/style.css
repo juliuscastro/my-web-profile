@@ -411,7 +411,7 @@ span {
 	}
 
 	.footer {
-		padding: 2rem 3%;
+		padding: 1rem 3%;
 	}
 }
 
@@ -479,14 +479,6 @@ span {
 	.portfolio-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
-	.footer {
-		flex-direction: column-reverse;
-	}
-
-	.footer p {
-		text-align: center;
-		margin-top: 2rem;
-	}
 }
 
 @media (max-width: 617px) {
@@ -502,6 +494,14 @@ span {
 
 	.contact form .input-box input {
 		width: 100%;
+	}
+	.footer {
+		flex-direction: column-reverse;
+	}
+
+	.footer p {
+		text-align: center;
+		margin-top: 2rem;
 	}
 }
 
